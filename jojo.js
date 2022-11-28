@@ -160,7 +160,7 @@ function jojofav(){
         else if (nome.toLowerCase() == "narancia"){
             document.getElementById("h1").innerHTML = ("Narancia Ghirga")
             document.getElementById("td").innerHTML = ("Narancia é um adolescente de média estatura e figura desajeitada.Na infancia foi salvo por Bucciarati e anos mais tarde entrou para sua guangue")
-            document.getElementById("img").innerHTML = "<img class='imgdp' src = 'http://pm1.narvii.com/7435/18d31ae3a1017dcfd3095e00232b36095d571c7ar1-640-624v2_uhq.jpg'>";
+            document.getElementById("img").innerHTML = "<img class='imgdp' src = 'https://i.pinimg.com/474x/fc/56/83/fc5683cade5fb5158770aed7e2e32f61.jpg'>";
 
         }
 
