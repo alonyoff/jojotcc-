@@ -160,7 +160,7 @@ function jojofav(){
         else if (nome.toLowerCase() == "narancia"){
             document.getElementById("h1").innerHTML = ("Narancia Ghirga")
             document.getElementById("td").innerHTML = ("Narancia é um adolescente de média estatura e figura desajeitada.Na infancia foi salvo por Bucciarati e anos mais tarde entrou para sua guangue")
-            document.getElementById("img").innerHTML = "<img class='imgdp' src = 'https://static.wikia.nocookie.net/jjba/images/3/3b/Narancia_Ghirga_Anime.png/revision/latest?cb=20181205005555&path-prefix=pt-br'>";
+            document.getElementById("img").innerHTML = "<img class='imgdp' src = 'http://pm1.narvii.com/7435/18d31ae3a1017dcfd3095e00232b36095d571c7ar1-640-624v2_uhq.jpg'>";
 
         }
 
@@ -438,7 +438,7 @@ function jojofavs(){
         else if (nome.toLowerCase() == "narancia"){
             document.getElementById("h1").innerHTML = ("Narancia Ghirga")
             document.getElementById("td").innerHTML = ("Narancia é um adolescente de média estatura e figura desajeitada.Na infancia foi salvo por Bucciarati e anos mais tarde entrou para sua guangue")
-            document.getElementById("img").innerHTML = "<img class='imgdp' src = 'https://static.wikia.nocookie.net/jjba/images/3/3b/Narancia_Ghirga_Anime.png/revision/latest?cb=20181205005555&path-prefix=pt-br'>";
+            document.getElementById("img").innerHTML = "<img class='imgdp' src = 'http://pm1.narvii.com/7435/18d31ae3a1017dcfd3095e00232b36095d571c7ar1-640-624v2_uhq.jpg'>";
 
         }
 
