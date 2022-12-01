@@ -1,0 +1,270 @@
+body{
+  /*background-image:url(https://swall.teahub.io/photos/small/63-630976_1920x1080-jojo-s-bizarre-adventure-wallpaper-by-zupertompa.jpg);*/
+  background-image: url(siakq.png);
+  background-size: cover;
+  margin-top: 0;
+  margin-left: -10;
+  margin-right: 1;
+  margin-bottom: -1000;
+  background-attachment: fixed;
+  
+}
+h1.f0{
+ color:purple;
+ font-size: 40px;
+ text-align: center;
+ font-style: italic;
+ text-decoration: underline;
+ 
+
+}
+marquee{
+    
+  color:purple;
+ font-size: 40px;
+ text-align: center;
+ font-style: italic;
+ 
+}
+
+details{
+  color: rgb(255, 255, 255);
+font-size: 25px;
+font-family:Bahnschrift SemiBold ;
+}
+
+p.f1{
+color: rgb(255, 255, 255);
+font-size: 25px;
+font-family:Bahnschrift SemiBold ;
+
+}
+li.f2{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family:Bahnschrift SemiBold ;
+}
+dd{
+color: aliceblue;
+font-size: 25px;
+font-family:serif
+}
+th{
+text-align: center;
+border-style: solid;
+border-width: 1px;
+}
+table{
+border-style: solid;
+border-width: 1px;
+border-color:rgb(255, 255, 255) ;
+height: 200;
+color: rgb(255, 255, 255) ;
+text-align: center;
+}
+td.loja{
+
+border-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+border-width: 1px;
+text-align: center;
+border-style: solid;
+}
+
+td.f2{
+
+border-color: rgb(255, 255, 255);
+border-width: 1px;
+color: rgb(255, 255, 255);
+text-align: center;
+border-style: solid;
+}
+td.colher{
+
+border-width: 1px;
+border-color:rgb(255, 255, 255) ;
+text-align: center;
+color: rgb(255, 255, 255);
+border-style: solid;
+}
+td.caixadagua{
+
+border-width: 1px;
+border-color:rgb(255, 255, 255) ;
+text-align: center;
+color: rgb(255, 255, 255);
+border-style: solid; 
+}
+td.espada{
+
+border-width: 1px;
+border-color:rgb(255, 255, 255) ;
+text-align: center;
+color: rgb(255, 255, 255); 
+border-style: solid;
+}
+td.chorroca{
+border-width: 1px;
+border-color:rgb(255, 255, 255) ;
+color: rgb(255, 255, 255); 
+text-align: center;
+border-style: solid;
+}
+td.sb{
+  border-width:0;
+}
+table.sb{
+  border-width: 0;
+}
+img.pg{
+width: 900;
+height: 500;
+}  
+img.continua{
+ width: 400px; 
+ height: 100px;
+} 
+
+img.continua:hover{
+
+  width: 405;
+  height: 105;
+  background-color: rgba(0, 0, 0, 0.212);
+  
+  
+
+}
+img.lista{
+  width: 500;
+  height: 300;
+}   
+a{
+font-size: 20px;
+font-style: italic;
+color: rgb(144, 26, 199);
+}
+a:hover{
+font-size:20 ;
+font-family: 'Lucida Sans';
+color: blue;
+}
+td.menu{
+border-color: rgb(0, 0, 0);
+border-width: 3px;
+color: rgb(0, 0, 0);
+text-align: center;
+border-style: solid;
+
+}
+table.menu{
+border-style: solid;
+border-width: 1px;
+border-color:rgb(0, 0, 0) ;
+height: 3;
+width: 1000;
+color: rgb(255, 255, 255) ;
+text-align: left;
+background-color: rgb(133, 0, 104);
+}
+a.menu{
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+/* Div colocado em 5 de abril de 2022 */
+#menu{
+  width: 100%;
+  height: 30px;
+  background-color: purple; 
+  text-align: center; 
+}
+#body{
+  position: relative;
+  height: auto;
+  margin-top: 12px;
+  margin-left: 60;
+  margin-right: 50;
+  background-color: rgba(0, 0, 0, 0.897);
+  background-size: cover;
+  border-radius: 20;
+  padding-left: 30;
+  padding-right: 20;
+  padding-bottom: 20;
+  padding-top: 10;
+}
+
+.imgdp{
+
+  width: 400px;
+  height: 400px;
+  
+
+}
+
+.f3{
+
+  
+  font-size: 20px;
+  color: rgb(144, 26, 199);
+
+}
+
+.imgpq{
+
+  width: 200px;
+  height: 100px;
+
+}
+
+input{
+
+  width: 300px;
+  height: aut;
+  border-radius: 20PX;
+  background-color: black;
+  color: aliceblue;
+  font-family: comic sans ms;
+  lighting-color: blueviolet;
+  text-align: center;
+
+}
+
+button{
+
+  color: black;
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 10%;
+  height: 2%;
+
+}
+
+button:hover{
+
+  width: 11%;
+  height: 3%;
+  border-radius: 20px;
+  color: black;
+  background-color: aliceblue;
+  
+
+}
+
+select{
+
+  width: 300px;
+  height: aut;
+  border-radius: 20PX;
+  background-color: black;
+  color: aliceblue;
+  font-family: comic sans ms;
+  text-align: center;
+
+}
+
+
+
+
+
+
+/*1588px width preencher toda tela*/
+/* 100
