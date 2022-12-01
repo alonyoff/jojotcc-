@@ -267,9 +267,16 @@ function jojofav(){
 function vilfav(){
 
     var nome = (document.getElementById("vilfav").value);
-    if (nome.toLowerCase() == "dio"){
+    if (nome.toLowerCase() == "dio" || nome.toLowerCase() == "dio brando"){
         document.getElementById("h1").innerHTML = ("Dio Brando")
         document.getElementById("td").innerHTML = ("O vilão mais iconico da obra. Sem ele, a maioria dos eventos da obra não aconteceriam.")
+        document.getElementById("img").innerHTML = "<img class='imgdp' src ='https://taverna42.files.wordpress.com/2018/09/maxresdefault-1.jpg?w=1280&h=720&crop=1'>";
+    } 
+
+
+    else if (nome.toLowerCase() == "kars"){
+        document.getElementById("h1").innerHTML = ("Kars")
+        document.getElementById("td").innerHTML = ("O homem pilar que deseja acabar com a raça humana. Após usar a pedra Aja, se tornou a criatura perfeita")
         document.getElementById("img").innerHTML = "<img class='imgdp' src ='https://taverna42.files.wordpress.com/2018/09/maxresdefault-1.jpg?w=1280&h=720&crop=1'>";
     } 
         
@@ -542,3 +549,91 @@ function jojofavs(){
     }
 
     }
+
+    function stand() {
+
+
+       var stand =(document.getElementById("standname").value);
+
+       if (stand == "Hermit Purple"){
+        document.getElementById("td").innerHTML = ("Clarividência: A principal habilidade de Hermit Purple é criar imagens utilizando-se de objetos reais. Ao custo de uma máquina fotográfica, ele consegue tirar uma foto do que quer que Joseph queira ver, não importa onde esteja. Utilizando-se de uma TV, ele faz com que os canais passem rapidamente de forma a criar uma mensagem audível do que quer que Joseph queira saber. Ele também pode criar mapas a partir de areia e até mesmo ler a mente de alguém.");
+        document.getElementById("td2").innerHTML = ("Transmissão de Hamon: Como Hermit Purple funciona como uma extensão do corpo de Joseph, ele consegue transmitir Hamon através do stand, podendo inclusive se enrolar no próprio stand criando assim uma barreira de Hamon pelo corpo.")
+        document.getElementById("img").innerHTML = "<img class = 'imgdp' src = 'https://static.wikia.nocookie.net/jjba/images/1/1e/Hermit.png/revision/latest?cb=20170420164045&path-prefix=pt-br'>";
+       }
+
+       else if (stand == "Star Platinum"){
+        document.getElementById("td").innerHTML = ("Star Finger : Star Platinum usando Star Finger em Dark Blue Moon no mangá. Na Parte III: Stardust Crusaders, Jotaro usa a habilidade Star Finger diversas vezes. Esta Habilidade consiste em esticar seu dedo indicador e o dedo do meio, como se fosse uma lâmina. Ele usa essa habilidade pela primeira vez na batalha contra Dark Blue Moon, vencendo-o quando estica seus dedos e destrói o rosto do Stand, perfurando-o. Usa também na batalha contra Forever, o gorila. Jotaro também usa essa habilidade na luta contra Polnareff que está possuído pelo Stand Anubis. (Alguns dizem que essa habilidade é esquecida por Araki, porém, foi explicado no Mangá que algumas habilidades são inutilizadas depois de certo tempo.");
+        document.getElementById("td2").innerHTML = ("Na Parte IV: Diamond is Unbreakable, uma distinção é feita na nomeação de Stand de Jotaro Star Platinum: The World (スタープラチナ・ザ・ワールド Sutā Purachina: Za Wārudo). Essa nova nomeação é feita em referência à The World, o Stand de DIO, vilão da parte 3, cujo poder era parar o tempo. Star Platinum: The World agora possui a mesma habilidade. Como é visto em JoJo, é necessário que o usuário pratique parar o tempo para que ele consiga parar o tempo... por mais tempo.")
+        document.getElementById("img").innerHTML = "<img class = 'imgdp' src = 'https://static.wikia.nocookie.net/jjba/images/1/19/Ddfs.png/revision/latest?cb=20170520195652&path-prefix=pt-br'>";
+       }
+
+       else if (stand == "Magician’s Red"){
+        document.getElementById("td").innerHTML = ("Todos os poderes de Magician’s Red involvem manipulação de fogo. Não só ele é capaz de criar chamas artificiais que se movem de acordo com a vontade de Avdol, como ele também pode aumentar a temperatura ambiente..");
+        document.getElementById("td2").innerHTML = ("")
+        document.getElementById("img").innerHTML = "<img class = 'imgdp' src = 'https://static.wikia.nocookie.net/jjba/images/3/31/Red.png/revision/latest?cb=20170306180252&path-prefix=pt-br'>";
+      }
+
+      else if (stand == "Hierophant Green"){
+        document.getElementById("td").innerHTML = ("Longo Alcançe: Hierophant Green pode se esticar por longas distâncias, sendo remotamente controlado por Kakyoin. Por isso ele não é fisicamente forte. Ele pode se esticar e desfazer rapidamente, tanto para atacar quanto para evitar dano.");
+        document.getElementById("td2").innerHTML = ("Emerald Splash: A principal técnica decombate de Hierophant Green. Ele forma uma substância viscosa em suas mãos, que se solidifica em forma de esmeraldas, e então as dispara. Essa técnica possui longo alcance e dispersã")
+        document.getElementById("img").innerHTML = "<img class = 'imgdp' src = 'https://pa1.narvii.com/6400/cc3030ca9f74700f74651f06432e5bc4f8e6d5bc_hq.gif'>";
+      }
+
+      else if (stand == "Silver Chariot"){
+        document.getElementById("td").innerHTML = ("Silver Chariot é um Stand muito poderoso focado em combate: Todas as suas habilidades são de natureza destrutiva ou tem como objetivo ajudar ele em combate. Ele é um Stand incrivelmente ágil, capaz de atacar inimigos com incontáveis ataques e cortes de espada antes do oponente conseguir reagir. Ele também pode usar sua agilidade junto com sua força para defender e refletir ataques direcionados contra seu usuário.");
+        document.getElementById("td2").innerHTML = ("Armadura: Silver Chariot retira sua armadura.A habilidade mais estranha de Silver Chariot talvez seja sua veste medieval pesada. Essa armadura diminui a velocidade de Chariot, mas também impede que ele seja machucado, já que Polnareff não recebe o mesmo dano que a armadura recebe. A armadura se mostra capaz de agüentar grandes temperaturas sem derreter. A retirada dessa armadura, além de deixar seu Stand mais veloz, também dá a Polnareff a habilidade de ver através dos olhos de seu Stand.")
+        document.getElementById("img").innerHTML = "<img class = 'imgdp' src = 'https://media.tenor.com/jP_IG5gFrrUAAAAC/silver-chariot-polnareff.gif'>";
+      }
+
+      else if (stand == "The Fool"){
+        document.getElementById("td").innerHTML = ("Controle sobre areia: O Louco possui controle sobre areia. Apesar de simples, isso o torna um Stand bastante versátil, podendo assumir diversas formas dependendo da necessidade, assim como alterar sua densidade. Por ser composto de areia, é praticamente impossível causar dano a ele..");
+        document.getElementById("td2").innerHTML = ("")
+        document.getElementById("img").innerHTML = "<img class = 'imgdp' src = 'https://static.wikia.nocookie.net/powerlisting/images/3/3b/Iggy%27s_The_Fool_JoJo.gif/revision/latest?cb=20190607205855'>";
+      }
+
+
+      else if (stand == "The World/Za Warudo"){
+        document.getElementById("td").innerHTML = ("The World é um stand de curto alcance excepcionalmente poderoso, tem uma manifestação máxima de alcance de 10m. Apesar de exigir uma distância próxima para atacar, é incrivelmente difícil de parar uma vez dentro do alcance mencionado acima.");
+        document.getElementById("td2").innerHTML = ("Parar o Tempo: A chave de poder que define The World é a sua capacidade de parar o tempo, permitindo apenas a si mesmo e Dio para agir dentro do período de tempo parado. Dado o estado enfraquecido de Dio durante a Parte III, essa habilidade só funciona em alguns segundos no sistema de referência de Dio antes que o tempo flua novamente. No entanto, também devido à imortalidade de Dio, a duração do tempo parado também aumenta à medida que Dio se torna mais acostumado para The World, atingindo um máximo de 11 segundos em toda a história. Se ele não tivesse morrido, o comprimento teria continuado a crescer.")
+        document.getElementById("img").innerHTML = "<img class = 'imgdp' src = 'https://i.kym-cdn.com/photos/images/newsfeed/000/974/016/6e6.gif'>";
+      }
+
+
+      else if (stand == "Crazy Diamond"){
+
+        document.getElementById("td").innerHTML = ("Crazy Diamond possui o poder de restaurar objetos quebrados e curar feridas de qualquer ser vivo, independente da gravidade do dano; restaura o objeto ao seu primeiro estado, devolvendo forma e componentes originais. Ele também pode recolocar membros decepados e recompor uma pessoa completamente enquanto ela estiver viva. Porém, Josuke não pode utilizar da habilidade em si mesmo; o temperamento dele pode alterar a eficácia da restauração, deixando-a distorcida de alguma maneira.")
+        document.getElementById("img").innerHTML = "<img class = 'imgdp' src = 'http://pa1.narvii.com/6772/186ea22cb89656c91428a813ada030723834f42b_00.gif'>";
+        document.getElementById("td2").innerHTML = ("") 
+        document.getElementById("td3").innerHTML = ("")
+    }
+      else if (stand == "The Hand"){
+
+        document.getElementById("td").innerHTML = ("A Mão do The Hand possui o poder de eliminar espaço e tempo. Toda vez que ele ataca com sua mão direita, ele elimina o espaço onde o corte foi feito. Qualquer coisa atingida pelo ataque é apagado imediatamente (da mesma maneira que Cream) The hand pode utilizar essa técnica não só para atacar diretamente, como também para eliminar o ar a sua frente, o que permite a ele atrair objetos ou seus oponentes para si assim como se teletransportar. Além de sua habilidade The Hand também é bastante forte fisicamente.")
+        document.getElementById("img").innerHTML = "<img class = 'imgdp' src = 'http://pa1.narvii.com/6772/186ea22cb89656c91428a813ada030723834f42b_00.gif'>";
+        document.getElementById("td2").innerHTML = ("") 
+        document.getElementById("td3").innerHTML = ("")
+    }
+      else if (stand == "Echoes"){
+
+        document.getElementById("td").innerHTML = ("Ato 1, Criação de Sons: Ato 1 tem o poder de escrever sons, sejam onomatopéias ou frases, em objetos ou pessoas. Esses sons então passam a se repetir, com seu volume aumentando com o tempo. Ele pode criar vários sons ao mesmo tempo. Ato 1 possui longo alcance. A sonoridade de suas Palavras")
+        document.getElementById("td2").innerHTML = ("Ato 2 tem o poder de transformar a ponta de sua cauda em um som sólido, que então pode ser colocado em qualquer objeto. Encostar no som causa o efeito representado pelo som. Ato 2 possui longo alcance e também é bastante rápido. O significado de suas palavras") 
+        document.getElementById("td3").innerHTML = ("Ato 3, Paralisação: Ato 3 tem o poder de paralisar um objeto ou pessoa. Ao desferir uma série de socos no alvo, ele se torna extremamente pesado, incapaz de se mover. Seu alcance é de apenas dois metros. A potência de suas palavras")
+        document.getElementById("img").innerHTML = "<img class = 'imgdp' src = 'http://pa1.narvii.com/6772/186ea22cb89656c91428a813ada030723834f42b_00.gif'>";
+      }
+      else if (stand == "Heaven's Door"){
+
+        document.getElementById("td").innerHTML = ("Leitura de Memória: Uma vez que alguém olhe para o desenho do stand, essa pessoa é transformada em um livro humano. As páginas contém todas as memórias dessa pessoa, que Rohan pode ler livremente. Rohan pode remover tais páginas, fazendo com que a pessoa perca as memórias contidas na página, assim como perder peso. Rohan também pode escrever novas memórias na pessoa, assim como comandos. Uma vez o poder desativado, a pessoa irá seguir o comando escrito nela inquestionavelmente.")
+        document.getElementById("td2").innerHTML = ("Heaven's Door também garante a Rohan a habilidade de desenhar em velocidades incalculáveis, posicionando cada gota de tinta precisamente sobre o papel para formar uma imagem.        ") 
+        document.getElementById("td3").innerHTML = ("")
+        document.getElementById("img").innerHTML = "<img class = 'imgdp' src = 'https://static.wikia.nocookie.net/jjba/images/e/e0/Rfs.png/revision/latest?cb=20170520200420&path-prefix=pt-br'>";
+      }
+
+       else{
+        document.getElementById("td").innerHTML = ("Selecione um stand!")
+        document.getElementById("td2").innerHTML = ("") 
+        document.getElementById("td3").innerHTML = ("")
+        document.getElementById("img").innerHTML = ("")
+       }
+
+    }
+    //"<img class = 'imgdp' src = ''>";
