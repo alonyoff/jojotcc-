@@ -124,7 +124,7 @@ function jojofav(){
             document.getElementById("img").innerHTML = "<img class='imgdp' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC-0-kRuSQ1C8mMng1O4bdLeJqTtJ0p9mWX8WyxhGJ1mLF3gkZRN4dJejh1YMnl2x8WPI&usqp=CAU'>";
         }
 
-        else if (nome.toLowerCase() == "bucciarati"){
+        else if (nome.toLowerCase() == "bucciarati" || nome.toLowerCase() == "buccellati" || nome.toLowerCase() == "bruno"){
             document.getElementById("h1").innerHTML = ("Bruno Bucciarati ") 
             document.getElementById("td").innerHTML = ("Um dos jobros do Giorno, em sua primeira aparição tentou matar o protagonista, mas após ver que Giorno tem um coração puro, decide aceita-lo em sua gangue")
             document.getElementById("img").innerHTML = "<img class='imgdp' src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxDy_KN58W3cWCwZ7xxLG0NaGCuH808bSty2PZ7_kWzq38N9Azsj6-q8hiMmp469gwbhA&usqp=CAU'>";
@@ -164,14 +164,14 @@ function jojofav(){
 
         }
 
-        else if (nome.toLowerCase() == "hermes"){
+        else if (nome.toLowerCase() == "hermes" || nome.toLowerCase() == "hermes"){
             document.getElementById("h1").innerHTML = ("Hermes Costello")
             document.getElementById("td").innerHTML = ("Conheceu e ajudou Jolyne na prisão. Apesar de estar disposta a ajudar jolyne, tem seus proprios objetivos. Infelizmente passou grande parte de Stone ocean na enfermaria ")
             document.getElementById("img").innerHTML = "<img class='imgdp' src = 'https://i.pinimg.com/474x/fc/56/83/fc5683cade5fb5158770aed7e2e32f61.jpg'>";
 
         }
 
-        else if (nome.toLowerCase() == "foo fighters"){
+        else if (nome.toLowerCase() == "foo fighters" || nome.toLowerCase() == "ff"){
             document.getElementById("h1").innerHTML = ("Foo Fighters")
             document.getElementById("td").innerHTML = ("A jobro de Jolyne, no começo trabalha para o whitesnake mas após lutar com a jolyne e ser poupada por ela, decidiu se juntar ao grupo")
             document.getElementById("img").innerHTML = "<img class='imgdp' src = 'https://static.wikia.nocookie.net/jjba/images/b/bc/Ffanime.jpg/revision/latest?cb=20210921120528&path-prefix=pt-br'>";
@@ -530,21 +530,21 @@ function jojofavs(){
 
         }
 
-        else if (nome == "Narancia Ghirga"){
+        else if (nome == "Narancia Ghirga"  || nome.toLowerCase() == ""){
             document.getElementById("h1").innerHTML = ("Narancia Ghirga")
             document.getElementById("td").innerHTML = ("Narancia é um adolescente de média estatura e figura desajeitada.Na infancia foi salvo por Bucciarati e anos mais tarde entrou para sua guangue")
             document.getElementById("img").innerHTML = "<img class='imgdp' src = 'http://pm1.narvii.com/7435/18d31ae3a1017dcfd3095e00232b36095d571c7ar1-640-624v2_uhq.jpg'>";
 
         }
 
-        else if (nome.toLowerCase() == "hermes costello"){
+        else if (nome.toLowerCase() == "hermes costello" || nome.toLowerCase() == "hermes"){
             document.getElementById("h1").innerHTML = ("Hermes Costello")
             document.getElementById("td").innerHTML = ("Conheceu e ajudou Jolyne na prisão. Apesar de estar disposta a ajudar jolyne, tem seus proprios objetivos. Infelizmente passou grande parte de Stone ocean na enfermaria ")
             document.getElementById("img").innerHTML = "<img class='imgdp' src = 'https://i.pinimg.com/474x/fc/56/83/fc5683cade5fb5158770aed7e2e32f61.jpg'>";
 
         }
 
-        else if (nome.toLowerCase() == "foo fighters"){
+        else if (nome.toLowerCase() == "foo fighters" || nome.toLowerCase() == "ff"){
             document.getElementById("h1").innerHTML = ("Foo Fighters")
             document.getElementById("td").innerHTML = ("A jobro de Jolyne, no começo trabalha para o whitesnake mas após lutar com a jolyne e ser poupada por ela, decidiu se juntar ao grupo")
             document.getElementById("img").innerHTML = "<img class='imgdp' src = 'https://static.wikia.nocookie.net/jjba/images/b/bc/Ffanime.jpg/revision/latest?cb=20210921120528&path-prefix=pt-br'>";
